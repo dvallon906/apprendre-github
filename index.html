@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!-- Titre -->
+    <h1>Cheat Sheet GitHub</h1>
+    <div class="container"></div>
+
+      <!-- Premier point  -->
+      <div class="point1">
+        <h3>1. Créer un compte</h3>
+
+        <a href="https://github.com/" target="_blank">Site GitHub.com</a> <br />
+      </div>
+      
+      <!-- 2ème point  -->
+      <div class="point1">
+        <h3>2. installer github desktop</h3>
+        <a
+          href="//docs.github.com/en/desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop"
+          target="_blank"
+          >Télecharger le programme d'installation</a
+        >
+        Download for Windows 64bits<br />
+        run installer<br />
+        Authorize GitHub desktop
+      </div>
+
+      <!-- 2ème point alternatif -->
+      <div class="point1">
+        <h3>2. Installer Git en ligne de commande</h3>
+        <a href="https://git-scm.com/download/win" target="_blank"> Source</a>
+        <br />
+        C:\Program Files\Git<br />
+        Télécharger ou lancer la commande 'winget install --id Git.Git -e --source
+        winget' depuis le teminal<br />
+        ! Choix de l'éditeur par défaut : Use the Nano editor by defaut<br />
+        ! Configuring the terminal emulator<br />
+        Use Windows default console window<br />
+        Documentation :
+        <a
+          href="https://git-scm.com/book/fr/v2/D%C3%A9marrage-rapide-Installation-de-Git"
+          target="_blank"
+          >ici</a
+        >
+      </div>
+  </div>
+
+  
+    <div class="point1">
+      <h3>3. Configuration</h3>
+      git config --global user.name "dvallon906" <br />
+      git config --global user.email "d.vallon@icloud.com" <br />
+      git config --global color.ui autocd..<br />
+    </div>
+    <div class="point1">
+      <h3>Création du premier Repository</h3>
+      Exemple sur le desktop ./apprendre-github Clic Droite sur le foler du
+      desktop -> Open GitBatch hear<br />
+      1. git init Un forlder caché doit être créer dans dossier du projet <br />
+      2. git add . (ne pas oublier le point) <br />
+      3. git commit -m "Première sychronisation"
+    </div>
+    <div class="point1">
+      <h3>Cloner le repository sur github.com</h3> 
+      1. Créer le repository sur github.com</br>
+      2. git remote add origin https://github.com/dvallon906/apprendre-github.git</br>
+      3. git branch -M main</br>
+      4. git push -u origin main</br>
+    </div>
+    <div class="point1">
+      <h3>Faire de nouveau commit </h3>
+      1. git add . </br>
+      2. git commit -m "Ajout d'info sur la publication"</br> 
+      3. git push -u origin main Supprimer des répertoires de la synchonisation</br>
+    </div>
+  </body>
+</html>
