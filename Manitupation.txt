@@ -1,0 +1,20 @@
+
+Site : https://github.com/
+1. Créer un compte
+
+2. installer github desktop
+https://docs.github.com/en/desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop
+Download for WIndows 64bits
+run installer
+    Authorize GitHub desktop
+
+2. Installer Git en ligne de commande
+    https://git-scm.com/download/win
+    C:\Program Files\Git
+    Télécharger ou lancer la commande 'winget install --id Git.Git -e --source winget' depuis le teminal
+    Documentation : https://git-scm.com/book/fr/v2/D%C3%A9marrage-rapide-Installation-de-Git
+
+3. Configuration
+    git config --global user.name "dvallon906"
+    git config --global user.email "d.vallon@icloud.com"
+     git config --global color.ui auto
