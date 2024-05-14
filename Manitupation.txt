@@ -36,4 +36,9 @@ Cloner le repository sur github.com
     git branch -M main
     git push -u origin main
 
+Faire de nouveau commit
+1.  git add .
+2.  git commit -m "Ajout d'info sur la publication"
+3.  git push -u origin main
 
+Supprimer des répertoires de la synchonisation
