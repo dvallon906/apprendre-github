@@ -12,9 +12,28 @@ run installer
     https://git-scm.com/download/win
     C:\Program Files\Git
     Télécharger ou lancer la commande 'winget install --id Git.Git -e --source winget' depuis le teminal
+    ! Choix de l'éditeur par défaut : Use the Nano editor by defaut
+    ! Configuring the terminal emulator
+        Use Windows default console window
     Documentation : https://git-scm.com/book/fr/v2/D%C3%A9marrage-rapide-Installation-de-Git
 
 3. Configuration
     git config --global user.name "dvallon906"
     git config --global user.email "d.vallon@icloud.com"
-     git config --global color.ui auto
+     git config --global color.ui autocd..
+
+Création du premier Repository
+Exemple sur le desktop ./apprendre-github
+Clic Droite sur le foler du desktop -> Open GitBatch hear
+1.  git init 
+    Un forlder caché doit être créer dans dossier du projet
+2.  git add . (ne pas oublier le point)
+3.  git commit -m "Première sychronisation"
+
+Cloner le repository sur github.com
+1.  Créer le repository sur github.com
+2.  git remote add origin https://github.com/dvallon906/apprendre-github.git
+    git branch -M main
+    git push -u origin main
+
+
